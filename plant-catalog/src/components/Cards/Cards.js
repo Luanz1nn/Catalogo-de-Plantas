@@ -14,29 +14,50 @@ function Card({
   return (
     <div className="card-container">
       <img src={imagemcapa} alt="espécie" />
-      <ul className="description">        
-        <p className="Name">
-            {Nomecomum}
-        </p>
-        <div>
-         <p className="question">
-            Nome Cientifico :
-        </p>
-        <p className="response">
-            {Nomecientifíco}
-        </p>
-        <div>   
+      <div className="description-container">
+        <div className="first-part">
+          <div>
+            <h3 className="Name">{Nomecomum}</h3>
+          </div>
+
+          <div className="scientific-name">
+            <h6>Nome Cientifico :</h6>
+            <p>{Nomecientifíco}</p>
+          </div>
+
+          <div className="occurrence">
+            <h6>Ocorrência :</h6>
+            <p>{Ocorrência}</p>
+          </div>
         </div>
-        
-          <p className="question">
-            Ocorrência :
-        </p>
-        <p className="response">
-          {Ocorrência}  
-        </p>  
+        <div className="second-part">
+          <div className="port">
+            <h6>Porte :</h6>
+            <p>{Porte}</p>
+          </div>
+
+          <div className="fruiting">
+            <h6>Frutificação :</h6>
+            <p>{Frutificação}</p>
+          </div>
+
+          <div className="flowering">
+            <h6>Floração :</h6>
+            <p>{Floração}</p>
+          </div>
         </div>
-        
-      </ul>
+        <div className="third-part">
+          <div className="dispersal">
+            <h6>Disperção :</h6>
+            <p>{Disperção}</p>
+          </div>
+
+          <div className="state">
+            <h6>Estado :</h6>
+            <p>{Estado}</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

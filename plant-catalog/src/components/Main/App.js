@@ -15,6 +15,11 @@ function App() {
       Nomecomum={specie.Nomecomum} 
       imagemcapa={specie.imagemcapa}
       Ocorrência={specie.Ocorrência}
+      Porte={specie.Porte}
+      Frutificação={specie.Frutificação}
+      Floração={specie.Floração}
+      Disperção={specie.Disperção}
+      Estado={specie.Estado}
       />
     </div>
   );
