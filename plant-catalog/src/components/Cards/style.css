@@ -1,0 +1,31 @@
+.card-container{
+    background-color: rgb(181, 181, 181);
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 8rem 1rem 8rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #629431;;
+    cursor: pointer;
+}
+
+.card-container img{    
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.description{
+    width: 16rem;
+    height: 8rem;
+   display: flex;
+   flex-direction: column;
+    color :#000;
+}
+
+.description p{
+    max-height: 2rem;
+    display: flex;
+    align-items: center;
+}

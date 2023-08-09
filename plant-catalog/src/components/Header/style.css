@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Work+Sans:wght@300;400&display=swap');
+
 .header-container{
     display: flex;
     align-items: center;
-    background-color: #7FAF4F;
+    justify-content: space-between;
+    background-color: #629431;
     max-width: 100vw;
     height: 5.5rem;
     padding: 0rem 8rem 0rem 8rem;
@@ -10,4 +13,26 @@
 .header-container .logo img{
     width: 4.5rem;
     height: 4.5rem;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+    color :#fff;
+}
+
+.navbar-container ul li {
+    font-family:'Montserrat', sans-serif;;
+    font-size: 1.1rem;
+    font-weight: 300;
+    cursor: pointer;
 }
