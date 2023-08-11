@@ -1,94 +1,224 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Work+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:wght@300;400&display=swap");
 
 .card-container {
-  background-color: rgb(181, 181, 181);
   height: 8rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 5px;
   margin: 1rem 8rem 1rem 8rem;
   border-radius: 1rem;
   border: 0.2rem solid #629431;
   cursor: pointer;
 }
 
+.card-container:hover{
+  background-color: #dddddd;
+}
+
 .card-container img {
   width: 8rem;
   height: 8rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 
-.description-container{
-    display: flex;
-    gap: 3rem;
+.description-container {
+  width: 60rem;
+  height: 8rem;
+  display: flex;
+  gap: 2px;
 }
 
-.description-container .first-part{
+.description-container .first-part {
+  height: 8rem;
+  width: 26rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
-  margin-bottom: 2.5rem;
 }
 
 .description-container .first-part div {
+  width: 26rem;
   height: 1rem;
   display: flex;
+  align-items: center;
   gap: 0.3rem;
 }
 
-.description-container .first-part  p,
-h6 {
+.description-container .first-part .scientific-name p {
+  width: 15rem;
+  display: flex;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .first-part .scientific-name h6 {
+  width: 9rem;
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-top: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
+
+.description-container .first-part .occurrence p {
+  width: 4rem;
+  display: flex;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .first-part .occurrence h6 {
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
 .description-container .first-part h3 {
   display: flex;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   font-size: 1.5rem;
 }
 
-.description-container .second-part{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
-  }
-  
-  .description-container .second-part div {
-    height: 1rem;
-    display: flex;
-    gap: 0.3rem;
-  }
-  
-  .description-container .secthirdond-part  p,
-  h6 {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    margin-top: 3rem;
-  }
+.description-container .second-part {
+  height: 8rem;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 
-  .description-container .third-part{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
-  }
-  
-  .description-container .third-part div {
-    height: 1rem;
-    display: flex;
-    gap: 0.3rem;
-  }
-  
-  .description-container .second-part  p,
-  h6 {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    margin-top: 1.5rem;
-  }
+.description-container .second-part div {
+  height: 1rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.description-container .second-part .port p {
+  width: 15rem;
+  display: flex;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .second-part .port h6 {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.description-container .second-part .fruiting p {
+  width: 17rem;
+  display: flex;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .second-part .fruiting h6 {
+  width: 9.8rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.description-container .second-part .flowering p {
+  width: 15rem;
+  display: flex;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .second-part .flowering h6 {
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.description-container .third-part {
+  height: 8rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.description-container .third-part div {
+  height: 1rem;
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.description-container .third-part .dispersal p {
+  width: 15rem;
+  display: flex;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .third-part .dispersal  h6 {
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.description-container .third-part .state p {
+  width: 15rem;
+  display: flex;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.description-container .third-part .state h6 {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
