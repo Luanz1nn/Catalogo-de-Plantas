@@ -8,29 +8,33 @@ function Main() {
   const [specie] = useState(species);
 
   return (
-    <div className="main-container">
+    <div className="main">
       <Header />
-      <div className="search">
-      <input placeholder="Digite Algo"></input>
-      <button>Buscar</button>
+      <div className="main-container">
+        <div className="search">
+          <input placeholder="Digite Algo"></input>
+          <button>Buscar</button>
+        </div>
+
+        {specie.map((specieCurrent) => {
+          return (
+            
+              <Card
+                key={specieCurrent.id}
+                Nomecientifíco={specieCurrent.Nomecientifíco}
+                Nomecomum={specieCurrent.Nomecomum}
+                imagemcapa={specieCurrent.imagemcapa}
+                Ocorrência={specieCurrent.Ocorrência}
+                Porte={specieCurrent.Porte}
+                Frutificação={specieCurrent.Frutificação}
+                Floração={specieCurrent.Floração}
+                Disperção={specieCurrent.Disperção}
+                Estado={specieCurrent.Estado}
+                CurrentSpecies={specieCurrent}
+              ></Card>
+          );
+        })}
       </div>
-      
-      {specie.map((specieCurrent) => {
-        return (
-          <Card
-            key={specieCurrent.id}
-            Nomecientifíco={specieCurrent.Nomecientifíco}
-            Nomecomum={specieCurrent.Nomecomum}
-            imagemcapa={specieCurrent.imagemcapa}
-            Ocorrência={specieCurrent.Ocorrência}
-            Porte={specieCurrent.Porte}
-            Frutificação={specieCurrent.Frutificação}
-            Floração={specieCurrent.Floração}
-            Disperção={specieCurrent.Disperção}
-            Estado={specieCurrent.Estado}
-          />
-        );
-      })}
     </div>
   );
 }
