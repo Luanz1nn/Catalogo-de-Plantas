@@ -13,12 +13,8 @@ function Card({
   CurrentSpecies
 }) {
 
-  function modal() {
-    console.log(CurrentSpecies);
-  }
-
   return (
-    <button className="card-container" onClick={modal}>
+    <div className="card-container">
       <img src={imagemcapa} alt="espécie" />
       <div className="description-container">
         <div className="first-part">
@@ -33,7 +29,7 @@ function Card({
           </div>
         
       </div>
-    </button>
+    </div>
   );
 }
 
