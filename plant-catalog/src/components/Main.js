@@ -1,7 +1,7 @@
 import "./style.css";
-import Catalog from "../Catalog/Catalog";
-import { Navigate, Outlet, Route, Routes } from "react-router-dom";
-import Home from "../Home/Home";
+import Catalog from "./Pages/Catalog/Catalog";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/Home";
 
 function Main() {
   return (

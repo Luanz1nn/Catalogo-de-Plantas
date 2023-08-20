@@ -4,13 +4,6 @@ function Card({
   Nomecientifíco,
   Nomecomum,
   imagemcapa,
-  Ocorrência,
-  Porte,
-  Frutificação,
-  Floração,
-  Disperção,
-  Estado,
-  CurrentSpecies
 }) {
 
   return (

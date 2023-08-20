@@ -1,5 +1,6 @@
 import "./style.css";
-import Header from "../Header/header";
+import Header from "../../Header/header";
+import Footer from "../../Footer/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="home-container">
         <div className="home-main">pagina inicial</div>
       </div>
+      <Footer/>
     </div>
   );
 }
