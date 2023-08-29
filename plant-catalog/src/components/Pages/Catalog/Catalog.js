@@ -4,7 +4,6 @@ import species from "../../Species/Species";
 import {  useState } from "react";
 import Modal from "../../Modal/Modal";
 import Header from "../../Header/header";
-import Footer from "../../Footer/Footer";
 
 function Catalog() {
   const [search, setSearch] = useState("");
@@ -77,7 +76,6 @@ function Catalog() {
           );
         })}
       </div>
-      <Footer />
     </div>
   );
 }

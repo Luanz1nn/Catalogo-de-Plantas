@@ -15,8 +15,7 @@
   }
   
   .catalog .catalog-container {
-    height: calc(100vh - 33.8vh);
-    min-height: calc(100vh - 33.8vh);
+    height: calc(100vh - 9.1rem);
     flex-direction: column;
     align-items: center;
     justify-content: center;
