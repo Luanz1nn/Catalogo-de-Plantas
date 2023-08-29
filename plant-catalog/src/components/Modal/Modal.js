@@ -53,7 +53,7 @@ export default function Modal({
                     <h2>Floração :</h2> <p>{Floração}</p>
                   </div>
                   <div className="dispersal">
-                    <h2>Disperção ;</h2> <p>{Disperção}</p>
+                    <h2>Disperção :</h2> <p>{Disperção}</p>
                   </div>
                 </div>
               </div>
