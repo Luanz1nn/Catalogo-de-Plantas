@@ -29,8 +29,7 @@ export default function Home() {
           </p>
           <span>
           Fonte:
-            <a href="https://www.gov.br/mma/pt-br/assuntos/ecossistemas-1/biomas/mata-atlantica" target="_blank">https://www.gov.br/mma/pt-br/assuntos/ecossistemas-1/biomas/mata-atlantica</a>,
-
+            <a href="https://www.gov.br/mma/pt-br/assuntos/ecossistemas-1/biomas/mata-atlantica" target="_blank">https://www.gov.br/mma/pt-br/assuntos/ecossistemas-1/biomas/mata-atlantica</a>
             <a href= "https://antigo.mma.gov.br/biomas/mata-atl%C3%A2ntica_emdesenvolvimento.html" target="_blank">https://antigo.mma.gov.br/biomas/mata-atl%C3%A2ntica_emdesenvolvimento.html</a>
           </span>
         </div>
