@@ -11,8 +11,6 @@
 .home-container {
   height: calc(100vh - 13vh);
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 6.5%;
 }
 .home-main {
@@ -44,5 +42,5 @@ span {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  font-size: 0.6rem;
+  font-size: 0.3rem;
 }
