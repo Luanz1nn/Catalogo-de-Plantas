@@ -7,12 +7,8 @@ export default function Home() {
       <Header />
       <div className="home-container">
         <div className="home-main">
-          <h1>Nativas-PE</h1>
-          <p>
-            Esse site nasceu com o intuito de servir como fonte de busca para as
-            espécies nativas da Mata Atlântica em Pernambuco. Podendo servir de
-            auxílio para agregar no conhecimento geral e também para trabalhos
-            específicos voltados a essa temática. Bioma Mata Atlântica: É
+          <h1>Mata Atlântica</h1>
+          <p>Bioma Mata Atlântica: É
             composto por formações florestais nativas: Floresta Ombrófila Densa;
             Ombrófila Mista; Ombrófila Aberta; Estacional Semidecidual; e
             Estacional Decidual, e também ecossistemas associados como:
@@ -25,7 +21,14 @@ export default function Home() {
             população brasileira, como por exemplo regulação e equilíbrio
             climático, abastecimento de água, entre outros. A fauna e flora tem
             a segunda maior biodiversidade das Américas, sendo inferior apenas a
-            Floresta Amazônica (THOMAS et al., 1998; MORELLATO; HADDAD, 2000).          
+            Floresta Amazônica (THOMAS et al., 1998; MORELLATO; HADDAD, 2000).
+            </p>
+            <h2>Sobre o Site</h2>
+          <p>
+            Esse site nasceu com o intuito de servir como fonte de busca para as
+            espécies nativas da Mata Atlântica em Pernambuco. Podendo servir de
+            auxílio para agregar no conhecimento geral e também para trabalhos
+            específicos voltados a essa temática.          
           </p>
           <span>
           Fonte:
