@@ -102,7 +102,7 @@ const species = [
     id: 8,
     Nomecientifíco : "Piptadenia viridiflora",
     Nomecomum: "Surucucu",
-    imagemcapa:'http://www.cnip.org.br/banco_img/Surucucu/piptadeniaviridiflorakunth5.jpg',
+    imagemcapa:'http://www.cnip.org.br/banco_img/Surucucu/piptadeniaviridiflorakunth3.jpg',
     imagemfruto:'http://www.remade.com.br/images/MadeirasExoticas/surucucu.png',
     imagemarvore:'http://www.cnip.org.br/banco_img/Surucucu/piptadeniaviridiflorakunth5.jpg',
     Ocorrência: "PE",
