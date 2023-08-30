@@ -10,12 +10,34 @@
   padding: 0rem 10%;
 }
 
+.header-container .logo{
+  width: 16rem;
+  height: 4.5rem;
+}
+
+.header-container .logo .link{
+  display: flex;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+
+.header-container .logo span{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+}
+
 .header-container .logo img {
   width: 4.5rem;
   height: 4.5rem;
 }
 
-.header-container .logo img:hover {
+.header-container .logo:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -23,7 +45,7 @@
   transform: scale(1.1);
 }
 
-.header-container .logo img:active {
+.header-container .logo:active {
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   -o-transform: scale(0.9);
